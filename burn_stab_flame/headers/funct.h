@@ -169,4 +169,13 @@ void evaluate_zero_der(const std::vector<type>& pos_last, const std::vector<type
     pos[points - 1] = (4 * pos[points - 2] - pos[points - 3]) / 3;
 }
 
+template <typename type>
+type count_depth(const std::vector<type>& pos) {
+    const size_t points = std::size(pos);
+    const type border_pos = pos[0];
+    const type center_pos = pos[points / 2];
+    const type depth = center_pos - border_pos;
+    return depth;
+}
+
 #endif

@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 hold_pos: float = 0
 downstream: float = 15
 
-pos_path: str = '../../VSProjects/burn_stab_flame/prep_front/pos.txt'
-par_path: str = '../../VSProjects/burn_stab_flame/prep_front/par.txt'
+pos_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/prep_front/pos-0-0.773.txt'
+par_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/prep_front/par-0-0.773.txt'
 
 pos = np.loadtxt(pos_path)
 par = np.loadtxt(par_path)

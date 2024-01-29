@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 hold_pos: float = 0
-downstream: float = 2
+downstream: float = 4
 
-pos_path: str = '../../VSProjects/burn_stab_flame/eval/pos.txt'
-temp_path: str = '../../VSProjects/burn_stab_flame/eval/temp.txt'
-par_path: str = '../../VSProjects/burn_stab_flame/eval/par.txt'
+pos_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/pos-2000-0.785.txt'
+temp_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/temp-2000-0.785.txt'
+par_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/par-2000-0.785.txt'
 
 pos = np.loadtxt(pos_path)
 temp = np.loadtxt(temp_path)

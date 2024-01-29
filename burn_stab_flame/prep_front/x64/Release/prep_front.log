@@ -1,7 +1,7 @@
 ﻿  prep_front.cpp
-  Generating code
-  1 of 241 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  Создание кода
+  11 of 205 functions ( 5.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  prep_front.vcxproj -> C:\Users\gubar\VSProjects\burn_stab_flame\x64\Release\prep_front.exe
+    25 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  prep_front.vcxproj -> C:\Users\gubar\source\repos\burn_stab_flame\x64\Release\prep_front.exe
