@@ -16,13 +16,13 @@ int main()
 
     const my_type time_simul = 1000;
 
-    const std::string pos_log = "pos-2000-0.785.txt";
-    const std::string par = "par-2000-0.785.txt";
-    const std::string temp_log = "temp-2000-0.785.txt";
+    const std::string pos_log = "pos-4000-0.786.txt";
+    const std::string par = "par-4000-0.786.txt";
+    const std::string temp_log = "temp-4000-0.786.txt";
 
-    const std::string temp_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/temp-2000-0.785.txt";
-    const std::string pos_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/pos-2000-0.785.txt";
-    const std::string par_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/par-2000-0.785.txt";
+    const std::string temp_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/temp-4000-0.786.txt";
+    const std::string pos_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/pos-4000-0.786.txt";
+    const std::string par_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/par-4000-0.786.txt";
 
     const my_type time_step = courant * std::pow(dim_step, 2);
     const size_t iters = size_t(time_simul / time_step);

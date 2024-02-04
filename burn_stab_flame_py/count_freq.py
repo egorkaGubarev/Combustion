@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-pos_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/pos-0-0.785.txt'
-par_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/par-0-0.785.txt'
-temp_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/temp-0-0.785.txt'
+pos_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/pos-3000-0.786.txt'
+par_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/par-3000-0.786.txt'
+temp_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/temp-3000-0.786.txt'
 
 pos = np.loadtxt(pos_path)
 par = np.loadtxt(par_path)

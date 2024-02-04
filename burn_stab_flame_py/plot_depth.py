@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-depth_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/count_front_depth/depth.txt'
-par_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/count_front_depth/par.txt'
+depth_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/count_front_depth/depth.txt'
+par_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/count_front_depth/par.txt'
 
 depth = np.loadtxt(depth_path)
 par = np.loadtxt(par_path)

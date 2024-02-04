@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "count_front_depth", "count_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eval_samples", "eval_samples\eval_samples.vcxproj", "{9ADBBE72-6706-4445-9824-92EF1244277E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extract_last_log", "extract_last_log\extract_last_log.vcxproj", "{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{9ADBBE72-6706-4445-9824-92EF1244277E}.Release|x64.Build.0 = Release|x64
 		{9ADBBE72-6706-4445-9824-92EF1244277E}.Release|x86.ActiveCfg = Release|Win32
 		{9ADBBE72-6706-4445-9824-92EF1244277E}.Release|x86.Build.0 = Release|Win32
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Debug|x64.ActiveCfg = Debug|x64
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Debug|x64.Build.0 = Debug|x64
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Debug|x86.Build.0 = Debug|Win32
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Release|x64.ActiveCfg = Release|x64
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Release|x64.Build.0 = Release|x64
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Release|x86.ActiveCfg = Release|Win32
+		{E51E5E6C-8BB2-4F2B-B69A-6B95DB55A4DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,11 +3,12 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 hold_pos: float = 0
-downstream: float = 4
+x_upstream_limit: float = 0.7
+downstream: float = 1.3
 
-pos_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/pos-2000-0.785.txt'
-temp_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/temp-2000-0.785.txt'
-par_path: str = 'C:/users/gubar/source/repos/burn_stab_flame/eval/par-2000-0.785.txt'
+pos_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/pos-4000-0.786.txt'
+temp_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/temp-4000-0.786.txt'
+par_path: str = 'C:/users/gubar/VSProjects/burn_stab_flame/eval/par-4000-0.786.txt'
 
 pos = np.loadtxt(pos_path)
 temp = np.loadtxt(temp_path)
@@ -36,7 +37,7 @@ temp_plot, = plt.plot([], [])
 
 
 def init():
-    ax.set_xlim(hold_pos, downstream)
+    ax.set_xlim(x_upstream_limit, downstream)
     ax.set_ylim(y_bott, y_up)
     plt.ylabel('y')
     plt.legend(['front', 'temp'])

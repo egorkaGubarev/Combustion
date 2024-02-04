@@ -14,14 +14,14 @@ int main()
     const size_t frames = 1000;
     const size_t verb = 10;
 
-    const my_type time_simul = 100;
+    const my_type time_simul = 1000;
 
     const std::string depth_log = "depth.txt";
     const std::string par = "par.txt";
 
-    const std::string temp_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/temp-3000-0.79.txt";
-    const std::string pos_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/pos-3000-0.79.txt";
-    const std::string par_in_name = "C:/Users/gubar/source/repos/burn_stab_flame/eval_no_log/par-3000-0.79.txt";
+    const std::string temp_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/temp-4000-0.781.txt";
+    const std::string pos_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/pos-4000-0.781.txt";
+    const std::string par_in_name = "C:/Users/gubar/VSProjects/burn_stab_flame/eval_no_log/par-4000-0.781.txt";
 
     const my_type time_step = courant * std::pow(dim_step, 2);
     const size_t iters = size_t(time_simul / time_step);
